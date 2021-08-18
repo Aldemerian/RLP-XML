@@ -58,5 +58,65 @@
          "@type":"Category",
          "name":"Logik"
       }
+   },
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Lebensgestaltung",
+      "url":"",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Soziales"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Ethik",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/ethik.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Soziales"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Religionskunde",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/reli.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Soziales"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Latein",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/lat.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Sprache"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Musik",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/mus.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Logik"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Politik",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/pol.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Soziales"
+      }
    }
 ]
