@@ -262,5 +262,171 @@
          "@type":"Category",
          "name":"Soziales"
       }
+   },
+   [
+   {
+      "@context":"https://schema.org/",
+      "id": 25,
+      "@type":"Subject",
+      "name":"Hebräisch",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/hebrae.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Sprache"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id":26,
+      "@type":"Subject",
+      "name":"Italienisch",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/it.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Sprache"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id":27,
+      "@type":"Subject",
+      "name":"Japanisch",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/jap.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Sprache"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 28,
+      "@type":"Subject",
+      "name":"Kunst",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/kunst.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Soziales"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 29,
+      "@type":"Subject",
+      "name":"Mathematik",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/ma.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Logik"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 30,
+      "@type":"Subject",
+      "name":"Polnisch",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/poln.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Sprache"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 31,
+      "@type":"Subject",
+      "name":"Portugiesisch",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/port.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Sprache"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 32,
+      "@type":"Subject",
+      "name":"Russisch",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/ru.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Sprache"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 33,
+      "@type":"Subject",
+      "name":"Chinesisch",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/chin.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Sprache"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 34,
+      "@type":"Subject",
+      "name":"Sozialwissenschaft",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/sowi.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Soziales"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 35,
+      "@type":"Subject",
+      "name":"Wirtschaftswissenschaft",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/wiwi.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Logik"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 36,
+      "@type":"Subject",
+      "name":"Türkisch",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/tuer.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Sprache"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 37,
+      "@type":"Subject",
+      "name":"Technik",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/tech.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Logik"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 38,
+      "@type":"Subject",
+      "name":"Handwerk",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/handw.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Logik"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "id": 39,
+      "@type":"Subject",
+      "name":"Hauswirtschaft",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/hw.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Logik"
+      }
    }
 ]
