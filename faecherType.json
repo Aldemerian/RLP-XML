@@ -18,5 +18,45 @@
          "@type":"Category",
          "name":"Logik"
       }
+   },
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Deutsch",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/deutsch.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Sprache"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Geografie",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/geo.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Logik"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Gesellschaftswissenschaften",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/gewi.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Soziales"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Informatik",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/inf.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Logik"
+      }
    }
 ]
