@@ -1,0 +1,22 @@
+[
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Altgriechisch",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/agr.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Sprache"
+      }
+   },
+   {
+      "@context":"https://schema.org/",
+      "@type":"Subject",
+      "name":"Astronomie",
+      "url":"https://github.com/Aldemerian/RLP-XML/blob/master/as.json",
+      "subjectOf":{
+         "@type":"Category",
+         "name":"Logik"
+      }
+   }
+]
