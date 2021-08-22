@@ -1,0 +1,51 @@
+Level zu Bloom a-H
+Kompetenzbereiche entspricht subcategory
+faecher sind attribute
+
+<fach>
+  <id>
+	<title>
+	<c1>
+    <id>C-DE-1</id>
+		<title>Kompetenzentwicklung
+		<subtext>
+			<id>C-DE-1-1</id>
+			<title>Ziele des Unterrichts</title>
+			<content>
+   <c2>
+	    <vorwort>
+          <id>C-DE-2-BE</id>
+          <title>Regelungen für das Land Berlin</title>
+          <content>
+         <area>
+              <id>
+              <name>
+              <subarea>
+                    <id>
+                    <competence>
+                        <name>
+                        <id>
+                        <stufe>
+                          <id>  
+                          <level>
+                          <standard>
+                               <id>
+                               <content>
+   <c3>
+		<id>C-DE-3</id>
+		<title>Themen und Inhalte</title>
+			<vortext>
+				<id>C-DE-3-0</id>
+				<title>Vorwort</title>
+				<content>
+			<themainhalt>
+				<id>C-DE-3-1</id>
+				<title>Lesend, schreibend und im Gespräch mit Texten und Medien umgehen 1/2</title>
+				<content>
+        <inhalt>
+					<id>C-DE-3-1-1</id>
+					<title>Inhalte</title>
+						<inhalt>
+							<id>C-DE-3-1-1-1</id>
+							<title>Literarische Texte</title>
+							<content> Kinderbuch, Märchen, Gedicht (Lied), kurze erzählende Texte, dramatische Szene </content>
