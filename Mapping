@@ -37,23 +37,29 @@ faecher sind attribute
    	<c3>
 		<id>C-DE-3</id>
 		<title>Themen und Inhalte</title>
-			<vortext>
-				<id>C-DE-3-0</id>
-				<title>Vorwort</title>
-				<content></content>
-      			</vortext>
-			<themainhalt>
-				{id, content}
-				<title>Themenbereich „Zahlen und Operationen“</title>
+		<vortext>
+			<id>C-DE-3-0</id>
+			<title>Vorwort</title>
+			<content></content>
+			<subtext>{
+				<id>C-GEO-3-0-1</id>
+				<title>Übersicht über die Themenfelder</title>
+				<content></content>}
+      			</subtext>
+		</vortext>
+		<themainhalt>
+			<id>
+			<content>
+			<title>Themenbereich „Zahlen und Operationen“</title>
+			<inhalt>
+				<id>C-MA-I1-1</id>
+				<title>Zahlen auffassen und darstellen</title>
 				<inhalt>
-					<id>C-MA-I1-1</id>
-					<title>Zahlen auffassen und darstellen</title>
+					{<id>C-DE-3-1-1-1</id>,<title>Literarische Texte</title>,<content>Kinderbuch, Märchen, Gedicht (Lied), kurze erzählende Texte, dramatische Szene </content>}
+					<id>C-MA-I1-1-A</id>
+					<title></title>
 					<inhalt>
-						{<id>C-DE-3-1-1-1</id>,<title>Literarische Texte</title>,<content>Kinderbuch, Märchen, Gedicht (Lied), kurze erzählende Texte, dramatische Szene </content>}
-						<id>C-MA-I1-1-A</id>
+						<id>C-MA-I1-1-A-1</id>
 						<title></title>
-						<inhalt>
-							<id>C-MA-I1-1-A-1</id>
-							<title></title>
-							<content>schnelles Erfassen von Mengen (z. B. strukturierte Mengenbilder)</content>
+						<content>schnelles Erfassen von Mengen (z. B. strukturierte Mengenbilder)</content>
 </fach>
