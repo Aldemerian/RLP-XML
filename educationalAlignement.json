@@ -1,0 +1,20 @@
+[
+	{
+		"id":"",
+		"name":"",
+		"fach":"",
+		"alter":"",
+		"location": {
+			"@type": "Place",
+			"bundesland": "Berlin-Brandenburg"
+		},
+		"alternateName": [],
+		"category":"",
+		"subcategory":"",
+		"bloom":"",
+		"competence":"",
+		"description":"",
+		"klasse":"",
+		"url":""
+	}
+]
