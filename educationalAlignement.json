@@ -1,20 +1,20 @@
 [
 	{
 		"id":"",
-		"name":"",
-		"fach":"",
-		"alter":"",
+		"name":"standard.content",
+		"fach":"z.b. Sport",
+		"alter":"stufe.level mit umrechnung",
 		"location": {
 			"@type": "Place",
 			"bundesland": "Berlin-Brandenburg"
 		},
-		"alternateName": [],
-		"category":"",
-		"subcategory":"",
-		"bloom":"",
-		"competence":"",
+		"alternateName": ["standard.id", "name", "andere bundesländer name"],
+		"category":"Logik oder Sprache oder Soziales oder Bewegung",
+		"subcategory":"subarea.name or area.name",
+		"bloom":"stufe.level mit umrechnung",
+		"competence":"competence.name",
 		"description":"",
-		"klasse":"",
+		"klasse":"stufe.level mit umrechnung",
 		"url":""
 	}
 ]
