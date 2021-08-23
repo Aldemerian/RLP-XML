@@ -1,4 +1,5 @@
-[
+{
+	"skills":[
 	{
 		"id":"",
 		"name":"standard.content",
@@ -17,4 +18,13 @@
 		"klasse":"stufe.level mit umrechnung",
 		"url":""
 	}
-]
+],
+"competence":[{
+	"id":"competence.id",
+	"name":"competence.name"
+}],
+"subcategory":[{
+	"id":"subarea.id oder area.id",
+	"name":"subarea.name oder area.name"
+}]
+}
