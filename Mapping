@@ -1,6 +1,22 @@
-Level zu Bloom a-H
-Kompetenzbereiche entspricht subcategory
-faecher sind attribute
+ zu Bloom A-H und Alter und Klasse
+attribute: fach, alter, bundesland/location, alias, category, subcategory, bloom, competence,
+
+Fähigkeit/Skill:
+getNodebyName = standard iterate through id und content
+standard.content (standard.id für subcategory und competence zuordnung)
+
+Kompetenz:
+competence.name (id für zuordnung zu skill)
+
+subcategory:
+subarea.name oder area.name (id für zuordnung zu kompetenz bzw. skill)
+
+Bloom:
+stufe.level
+
+name:
+alias: [id, name, andere bundesländer name]
+
 
 <fach>
 	<id></id>
