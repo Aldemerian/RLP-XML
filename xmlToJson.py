@@ -1,5 +1,32 @@
 import xml.etree.ElementTree as ET
-tree = ET.parse('country_data.xml')
+
+f = open("demofile.txt", "r")
+print(f.read()) 
+
+tree = ET.parse(f)
 root = tree.getroot()
-for neighbor in root.iter('neighbor'):
-	print(neighbor.attrib)
+for subarea in root.iter('subarea'):
+	print(subarea.attrib)
+	for sub in subarea.iter("competence"):
+		print(sub.attrib)
+		for comp in sub.iter("standard"):
+			print(comp.attrib)
+			for skill in comp:
+				skillId=skillId++
+				outputSkill={"id": skillId,
+					     "name":skill.name.attrib,
+					     "fach":"Mathe",
+					     "alter":"",
+					     "location": {
+						     "bundesland": "Berlin-Brandenburg"
+					     },
+					     "alternateName": [skill.id.attrib, skill.name.attrib, skill.name.content],
+					     "category":"Logik",
+					     "subcategory":sub.name.attrib,
+					     "bloom": skill.stufe.level.attrib,
+					     "competence":comp.name.attrib,
+					     "description":"",
+					     "klasse":"",
+					     "url":""
+					    }
+				allSkills.append(outputSkill)
