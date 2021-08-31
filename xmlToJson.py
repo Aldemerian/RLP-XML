@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 
-demo=raw_input("Give me your Poor, your huddled XML-File_Path: ")
+demo=input("Give me your Poor, your huddled XML-File_Path: ")
 
 f = open(demo, "r")
 print(f.read()) 
