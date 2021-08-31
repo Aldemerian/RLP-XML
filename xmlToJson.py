@@ -29,4 +29,8 @@ for subarea in root.iter('subarea'):
 					     "klasse":"",
 					     "url":""
 					    }
+				print(outputSkill)
 				allSkills.append(outputSkill)
+				
+				
+print(allSkills)
