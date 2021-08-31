@@ -1,6 +1,8 @@
 import xml.etree.ElementTree as ET
 
-f = open("demofile.txt", "r")
+demo=raw_input("Give me your Poor, your huddled XML-File_Path: ")
+
+f = open(demo, "r")
 print(f.read()) 
 
 tree = ET.parse(f)
