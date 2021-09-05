@@ -15,8 +15,9 @@ tree = ET.parse(f)
 print("competence")
 nodes = tree.findall('./{http://bsbb.eu}c2/')
 correctNode = nodes
-skillId = ""
+skillId = 1
 skillName = ""
+skillAltName = ""
 skillComp = ""
 f = 2
 allSkills=[]
@@ -38,26 +39,27 @@ for item in correctNode:
                     for subsubskill in subskill:
                         #print(subsubskill.tag)
                         if subsubskill.tag == '{http://bsbb.eu}id':
-                            skillId = subsubskill.text
+                            skillAltName = subsubskill.text
                             #print(skillId)
                         elif subsubskill.tag == '{http://bsbb.eu}content':
                             skillName = subsubskill.text
                             outputComp={
-                                "@type":"skill",
+                                "@type":"competence",
                                 "id": skillId,
                                 "name":skillName,
-                                "fach":"Mathe",
+                                "fach":"Deutsch",
                                 "level":skillComp,
                                 "alter":"",
                                 "schultyp":"",
                                 "bundesland": "Berlin-Brandenburg",
-                                "alternateName": [skillName, skillId],
-                                "category":"Logik",
+                                "alternateName": [skillName, skillId, skillAltName],
+                                "category":"Sprache",
                                 "subcategory":category,
                                 "description":"",
                                 "klasse":"",
                                 "url":""
                             }
+                            skillId += 1
                             #print(outputComp)
                             allSkills.append(outputComp)
 
@@ -66,7 +68,7 @@ print("end competence")
 
 print("skills")
 nodes = tree.findall('./{http://bsbb.eu}c3/{http://bsbb.eu}themainhalt/')
-skillId = 1
+
 skillName = ""
 skillAltName = ""
 comp1 = ""
@@ -94,13 +96,13 @@ for node in nodes:
                     "@type":"skill",
                     "id": skillId,
                     "name":skillName,
-                    "fach":"Mathe",
+                    "fach":"Deutsch",
                     "level":"",
                     "alter":"",
                     "schultyp":"",
                     "bundesland": "Berlin-Brandenburg",
                     "alternateName": [skillName, skillAltName],
-                    "category":"Logik",
+                    "category":"Sprache",
                     "competence": comp1,
                     "description":"",
                     "klasse":"",
