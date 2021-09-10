@@ -1,0 +1,47 @@
+Probleme mit der Auto-Verarbeitung:
+/home/maike/RLP-XML/wat.xml
+/home/maike/RLP-XML/rlp110.xml
+/home/maike/RLP-XML/nw.xml
+/home/maike/RLP-XML/Inf.xml
+/home/maike/RLP-XML/eth.xml
+/home/maike/RLP-XML/bcs.xml
+/home/maike/RLP-XML/bcm.xml
+/home/maike/RLP-XML/agr.xml
+
+Wirklich richtig?
+/home/maike/RLP-XML/Psy.xml
+/home/maike/RLP-XML/thea.xml
+/home/maike/RLP-XML/Thea.xml
+/home/maike/RLP-XML/Phil.xml
+/home/maike/RLP-XML/PB.xml
+/home/maike/RLP-XML/MU.xml
+/home/maike/RLP-XML/La.xml
+/home/maike/RLP-XML/L-E-R.xml
+/home/maike/RLP-XML/gewi.xml
+/home/maike/RLP-XML/GEWI.xml
+/home/maike/RLP-XML/geo.xml
+/home/maike/RLP-XML/GEO.xml
+/home/maike/RLP-XML/ge.xml
+/home/maike/RLP-XML/fs.xml
+/home/maike/RLP-XML/dgs.xml
+/home/maike/RLP-XML/Deutsch.xml
+
+Create jahrgangsstufe
+alter
+level
+(s1:Schultyp{schule:"Grundschule", level:[A,B,C], alter:[6, 7], jahrgangsstufe: [1, 2]}),
+(s2:Schultyp{schule:"Grundschule", level:[C,D], alter:[6, 7], jahrgangsstufe: [3, 4]}),
+(s3:Schultyp{schule:"Gemeinschaftsschulen", level:[A,B,C], alter:[6, 7], jahrgangsstufe: [1, 2]}),
+(s4:Schultyp{schule:"Gemeinschaftsschulen", level:[A,B,C], alter:[6, 7], jahrgangsstufe: [1, 2]}),
+
+MATCH
+  (a:Person),
+  (b:Person)
+WHERE a.name = 'A' AND b.name = 'B'
+CREATE (a)-[r:RELTYPE]->(b)
+RETURN type(r)
+
+Match (s:Skill),(t:Level)
+where s.level="A" and t.level="A"
+CREATE (s)-[r:has_level]->(t)
+RETURN type(r)
