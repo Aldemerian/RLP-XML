@@ -1,8 +1,5 @@
-<?xml version="1.0"?>
-<fach xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xmlns="http://bsbb.eu" 
-	xsi:schemaLocation="http://bsbb.eu fachtype.xsd">
-
+<?xml version="1.0" encoding="utf-8"?>
+<fach>
 	<id>C-NW</id>
 	<title>Naturwissenschaften 7 – 10</title>
 	<c1>
@@ -1809,7 +1806,7 @@ In diesem Themenfeld sollen die Kenntnisse der Schülerinnen und Schüler über 
 		<inhalt>
 			<id>C-NW-3-4-2-8</id>
 			<title>Weitere Kontexte</title>
-			<content>–	Zu Besuch bei Frosch & Co</content>
+			<content>–	Zu Besuch bei Frosch und Co</content>
 			<content>–	Tiere am und im Wasser</content>
 			<content>–	Lebensmittel Wasser</content>
 			<content>–	Wasser im 21. Jahrhundert</content>
@@ -2287,7 +2284,7 @@ Die Themenbeispiele zur Bearbeitung mit naturwissenschaftlichen Arbeitsweisen ge
 			<inhalt>
 				<id>C-NW-3-8-1-3</id>
 				<title>Wir untersuchen Körperpflegemittel</title>
-				<content>–	Cremes, Shampoo & Co</content>
+				<content>–	Cremes, Shampoo und Co</content>
 				<content>–	Zahnpasta</content>
 				<content>–	Düfte</content>
 				<content>–	Seifen</content>
@@ -2313,10 +2310,10 @@ Die Themenbeispiele zur Bearbeitung mit naturwissenschaftlichen Arbeitsweisen ge
 				<content>–	Rieselhilfen im Salz</content>
 				<content>–	Margarine</content>
 				<content>–	Kartoffelchips</content>
-                <content>–	die Milch machts (Quark & Co)</content>
+                <content>–	die Milch machts (Quark und Co)</content>
                 <content>–	rund ums Ei</content>
                 <content>–	Experimente mit Brausepulver</content>
-                <content>–	Süßwaren (Gummibärchen & Co)</content>
+                <content>–	Süßwaren (Gummibärchen und Co)</content>
                 <content>–	Schokolade</content>
                 <content>–	Mikroorganismen – nützlich oder schädlich</content>			
 			</inhalt>
@@ -2385,7 +2382,7 @@ Die Themenbeispiele zur Bearbeitung mit naturwissenschaftlichen Arbeitsweisen ge
 			<title>Beispiele für Unterrichtseinheiten</title>
 			<inhalt>
 				<id>C-NW-3-8-2-7-1</id>
-				<title>Getränke & Co</title>
+				<title>Getränke und Co</title>
 				<content>Cola: Zusammensetzung, Zuckergehalt, Löslichkeit, Kohlensäure; Mineralwasser: Ionen-nachweise, mit/ohne Kohlensäure; Säfte: Herstellung, trüb/klar, natürlich/künstlich; Milch und Milchprodukte; heiße Getränke: Kaffee, Tee, Schokolade – Extrahieren und Filtrieren; alkoholische Getränke: Wein – Branntwein/Destillieren, Alkoholgehalt; Verpackung: Glas, PET, Karton, Dose (Alu, Weißblech), Recycling-Verfahren; Werbung: Collage; Mix-Getränke aus eigener Produktion in umweltschonenden Verpackungen</content>
 			</inhalt>
 			<inhalt>

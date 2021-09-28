@@ -1,8 +1,5 @@
-<?xml version="1.0"?>
-<fach xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xmlns="http://bsbb.eu" 
-	xsi:schemaLocation="http://bsbb.eu fachtype.xsd">
-
+<?xml version="1.0" encoding="utf-8"?>
+<fach>
 	<id>C-PL</id>
 	<title>Polnisch</title>
 	<c1>
@@ -261,7 +258,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-1-1-D-3</id>
- 	  	  	  	  	  	 <content>[orientiert an A1/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an A1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -289,7 +286,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-1-1-F-3</id>
- 	  	  	  	  	  	 <content>[orientiert an A2/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an A2/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -305,7 +302,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-1-1-G-3</id>
- 	  	  	  	  	  	 <content>[orientiert an B1/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an B1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -321,7 +318,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-1-1-H-3</id>
- 	  	  	  	  	  	 <content>[orientiert an B1+/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an B1+/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	 </competence>
@@ -369,7 +366,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-2-1-D-3</id>
- 	  	  	  	  	  	 <content>[orientiert an A1/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an A1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -397,7 +394,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-2-1-F-3</id>
- 	  	  	  	  	  	 <content>[orientiert an A2/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an A2/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -413,7 +410,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-2-1-G-3</id>
- 	  	  	  	  	  	 <content>[orientiert an B1/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an B1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -429,7 +426,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-2-1-H-3</id>
- 	  	  	  	  	  	 <content>[orientiert an B1+/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an B1+/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	 </competence>
@@ -473,7 +470,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-3-1-D-3</id>
- 	  	  	  	  	  	 <content>[orientiert an A1/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an A1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -493,7 +490,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-3-1-F-2</id>
- 	  	  	  	  	  	 <content>[orientiert an A2/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an A2/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -509,7 +506,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-3-1-G-3</id>
- 	  	  	  	  	  	 <content>[orientiert an B1/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an B1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -525,7 +522,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-3-1-H-3</id>
- 	  	  	  	  	  	 <content>[orientiert an B1+/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an B1+/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	 </competence>
@@ -569,7 +566,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-3-2-D-2</id>
- 	  	  	  	  	  	 <content>[orientiert an A1/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an A1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -593,7 +590,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-3-2-F-3</id>
- 	  	  	  	  	  	 <content>[orientiert an A2/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an A2/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -613,7 +610,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-3-2-G-4</id>
- 	  	  	  	  	  	 <content>[orientiert an B1/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an B1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -625,7 +622,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-3-2-H-2</id>
- 	  	  	  	  	  	 <content>[orientiert an B1+/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an B1+/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	 </competence>
@@ -665,7 +662,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-4-1-D-3</id>
- 	  	  	  	  	  	 <content>[orientiert an A1/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an A1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -693,7 +690,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-4-1-F-3</id>
- 	  	  	  	  	  	 <content>[orientiert an A2/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an A2/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -709,7 +706,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-4-1-G-3</id>
- 	  	  	  	  	  	 <content>[orientiert an B1/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an B1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -725,7 +722,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 </standard>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-4-1-H-3</id>
- 	  	  	  	  	  	 <content>[orientiert an B1+/GeR]</content>
+ 	  	  	  	  	  	 <content>orientiert an B1+/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	 </competence>
@@ -829,7 +826,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 <level>D</level>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-6-1-D-1</id>
- 	  	  	  	  	  	 <content>ein elementares Repertoire an sprachlichen Mitteln, die sich auf sprachlich vorbereitete Alltagssituationen und -themen beziehen, verständlich und angemessen anwenden>[orientiert an A1/GeR]></content>
+ 	  	  	  	  	  	 <content>ein elementares Repertoire an sprachlichen Mitteln, die sich auf sprachlich vorbereitete Alltagssituationen und -themen beziehen, verständlich und angemessen anwenden>orientiert an A1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -845,7 +842,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 <level>F</level>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-6-1-F-1</id>
- 	  	  	  	  	  	 <content>in vertrauten Alltagssituationen und zu bekannten Themen erfolgreich sprachlich agieren und bei der Verwendung eines größer werdenden Repertoires sprachlicher Mittel zunehmend Sicherheit erlangen>[orientiert an A2/GeR]></content>
+ 	  	  	  	  	  	 <content>in vertrauten Alltagssituationen und zu bekannten Themen erfolgreich sprachlich agieren und bei der Verwendung eines größer werdenden Repertoires sprachlicher Mittel zunehmend Sicherheit erlangen>orientiert an A2/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -853,7 +850,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 <level>G</level>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-6-1-G-1</id>
- 	  	  	  	  	  	 <content>ihr Repertoire an sprachlichen Mitteln durchgehend verständlich anwenden und so Alltagssituationen mit nicht vorhersehbarem Inhalt sprachlich erfolgreich bewältigen und zu den meisten Alltagsthemen und zu Themen, die mit eigenen Interessen oder mit vorbereiteten Sachgebieten in Zusammenhang stehen, auch eigene Überlegungen ausdrücken>[orientiert an B1/GeR]></content>
+ 	  	  	  	  	  	 <content>ihr Repertoire an sprachlichen Mitteln durchgehend verständlich anwenden und so Alltagssituationen mit nicht vorhersehbarem Inhalt sprachlich erfolgreich bewältigen und zu den meisten Alltagsthemen und zu Themen, die mit eigenen Interessen oder mit vorbereiteten Sachgebieten in Zusammenhang stehen, auch eigene Überlegungen ausdrücken>orientiert an B1/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	  	 <stufe>
@@ -861,7 +858,7 @@ Schülerinnen und Schüler, die wegen einer erheblichen und langandauernden Beei
  	  	  	  	  	 <level>H</level>
  	  	  	  	  	 <standard>
  	  	  	  	  	  	 <id>PL-K1-6-1-H-1</id>
- 	  	  	  	  	  	 <content>ein hinreichend breites Spektrum sprachlicher Mittel zunehmend sicher anwenden und sich so zu den meisten Alltagsthemen und zu Themen, die mit eigenen Interessen oder mit vorbereiteten Sachgebieten in Zusammenhang stehen, zunehmend differenziert äußern und die wichtigsten Aspekte eines Gedankens oder Problems erklären sowie eigene Überlegungen ausdrücken und Stellung beziehen>[orientiert an B1+/GeR]></content>
+ 	  	  	  	  	  	 <content>ein hinreichend breites Spektrum sprachlicher Mittel zunehmend sicher anwenden und sich so zu den meisten Alltagsthemen und zu Themen, die mit eigenen Interessen oder mit vorbereiteten Sachgebieten in Zusammenhang stehen, zunehmend differenziert äußern und die wichtigsten Aspekte eines Gedankens oder Problems erklären sowie eigene Überlegungen ausdrücken und Stellung beziehen>orientiert an B1+/GeR</content>
  	  	  	  	  	 </standard>
  	  	  	  	 </stufe>
  	  	  	 </competence>

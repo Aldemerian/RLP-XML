@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fach xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xmlns="http://bsbb.eu" 
-	xsi:schemaLocation="http://bsbb.eu fachtype.xsd">
-
+<fach>
 	<id>C-DGS</id>
 	<title>Deutsche Gebärdensprache</title>
 	<c1>
