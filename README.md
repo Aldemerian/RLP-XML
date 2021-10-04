@@ -1,16 +1,23 @@
 # RLP-XML
-Rahmenlehrplan Berlin-Brandenburg als XML (Open Data)
+Rahmenlehrplan Berlin-Brandenburg als XML (Open Data) (siehe Orginal Repositorium)
 
-Die Datei rlp110.xml soll als Open Data auf der Berliner (und Brandenburger) Plattform unter der CC-BY 3.0 de veröffentlicht werden.
-Zur Beschreibung liegt eine entsprechende Schema-Datei bei.
-Hier sind die Entwicklungsschritte sichtbar.
+## Hier sind die Entwicklungsschritte sichtbar.
 
 Die aktuellsten Erkenntnisse zu diesen Entwicklungsschritte sind wohl hier zu finden:
 https://www.berlin.de/sen/bildung/unterricht/faecher-rahmenlehrplaene/rahmenlehrplaene/
 
-Sobald der Lehrplan restrukturiert wurde und in ein Schema.org Schema eingepasst wurde wird er nach Möglichkeit (falls die Schöpfungstiefe erreicht wird) unter WTF-PL gestellt. Da jedoch weitere Rechte geltend gemacht werden können, sollte vor Benutzung definitiv das Orginal-Repositorium zu Rate gezogen werden.
+Sobald der Lehrplan restrukturiert wurde und in ein Schema.org Schema eingepasst wurde, wird er nach Möglichkeit (falls die Schöpfungstiefe erreicht wird) unter eine freie Lizenz gestellt. Da jedoch weitere Rechte geltend gemacht werden können, sollte vor Benutzung definitiv das Orginal-Repositorium zu Rate gezogen werden.
 
-# Gesetz über Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz)
+## Wissenschaftliche Ausarbeitung
+In diesem Repositorium wird, sobald verfügbar eine entsprechende wissenchaftliche Aufarbeitung verfügbar sein.
+Weitere Ausarbeitungen und Links zu weiterführende Projekte werden hier verlinkt.
+
+## TODO
+-Wissenschaftliche Ausarbeitung fertigstellen
+-die letzten Fächer digitalisieren (siehe commit notes)
+-neue Projekte für die Darstellung verlinken bzw. Erstellen
+
+## Gesetz über Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz)
 § 5 Amtliche Werke 
 (1) Gesetze, 
 Verordnungen, amtliche Erlasse und Bekanntmachungen sowie Entscheidungen
