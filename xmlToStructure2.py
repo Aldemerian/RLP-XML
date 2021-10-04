@@ -4,6 +4,56 @@ from xml.etree import ElementTree
 import sqlite3
 import html
 
+categoryInput = dict([
+    ("bio.xml","Logik"),
+    ("jp.xml","Kommunikation"),
+    ("teilb.xml","Soziales"),
+    ("GEWI.xml","Soziales"),
+    ("rlp110.xml","Soziales"),
+    ("nw56.xml","Logik"),
+    ("he.xml","Kommunikation"),
+    ("el.xml","Kommunikation"),
+    ("de.xml","Kommunikation"),
+    ("pl.xml","Kommunikation"),
+    ("gewi.xml","Soziales"),
+    ("bcm.xml","Soziales"),
+    ("PB.xml","Soziales"),
+    ("zh.xml","Kommunikation"),
+    ("it.xml","Kommunikation"),
+    ("fr.xml","Kommunikation"),
+    ("tr.xml","Kommunikation"),
+    ("ru.xml","Kommunikation"),
+    ("sw.xml","Kommunikation"),
+    ("fs.xml","Kommunikation"),
+    ("La.xml","Kommunikation"),
+    ("es.xml","Kommunikation"),
+    ("en.xml","Kommunikation"),
+    ("agr.xml","Kommunikation"),
+    ("bcs.xml","Kommunikation"),
+    ("pt.xml","Kommunikation"),
+    ("dgs.xml","Kommunikation"),
+    ("Deutsch.xml","Kommunikation"),
+    ("ch.xml","Logik"),
+    ("AS.xml","Logik"),
+    ("wat.xml","Logik"),
+    ("ku.xml","Logik"),
+    ("ma.xml","Logik"),
+    ("GEO.xml","Logik"),
+    ("geo.xml","Logik"),
+    ("nw.xml","Logik"),
+    ("Phil.xml","Logik"),
+    ("Ph.xml","Logik"),
+    ("MU.xml","Logik"),
+    ("Inf.xml","Logik"),
+    ("L-E-R.xml","Soziales"),
+    ("Psy.xml","Soziales"),
+    ("eth.xml","Soziales"),
+    ("su.xml","Soziales"),
+    ("ge.xml","Soziales"),
+    ("teila.xml","Soziales"),
+    ("sowiwiwi.xml","Soziales"),
+    ("thea.xml","Bewegung"),
+    ("Thea.xml","Bewegung")])
 allCompetences = []
 allSkills = []
 allTopics = []
@@ -55,22 +105,24 @@ def writetoDB(allwhateva, varTable):
         print("Connected to SQLite")
         sql_command = ""
         if varTable == "competence":
-            print("competence")
+            #print("competence")
             sql_command = """INSERT INTO competence
                 VALUES (?,?,?,?,?);"""
         elif varTable == "skill":
-            print("skill")
+            #print("skill")
             sql_command = """INSERT INTO skill
                 VALUES (?,?,?,?,?);"""
         elif varTable == "topic":
-            print("topic")
+            #print("topic")
             sql_command = """INSERT INTO topic
                 VALUES (?,?,?,?,?,?);""" 
         connection.executemany(sql_command, allwhateva)
         connection.commit()
         #print("Python Variables inserted successfully into SqliteDb_developers table")
+        """
         for row in cursor.execute("SELECT * FROM competence"):
             print(row)
+        """
         connection.close()
     except sqlite3.Error as error:
         print("Failed to insert Python variable into sqlite table", error)
@@ -89,11 +141,81 @@ def goDeep(tree, varCategory, varFach, fileExceptionName):
     topicName=[]
     topicContent=[]
     tryNodes = tree.getroot()
-    allNodes = tryNodes.findall('./c2/area/competence/stufe/name')
+    if varFach == "Musik" or varFach == "Geschichte" or varFach == "Deutsche Gebärdensprache" \
+       or varFach == "Latein" or varFach == "Politische Bildung" or varFach == "Philosophie" \
+       or varFach == "Theater" or varFach == "Psychologie" or varFach == "Informatik" \
+       or varFach == "Altgriechisch" or varFach=="Lebensgestaltung-Ethik-Religionskunde" \
+       or varFach == "Deutsch" or varFach == "Kunst" or varFach == "Gesellschaftswissenschaften":
+        print("this is Music")
+        good_bot = tryNodes.findall('./c2/area/')
+        for item in good_bot:
+            #print(item.tag + ": " + item.text)
+            compId = ""
+            compName = ""
+            for ites in item:
+                #print(ites.tag + " 2: " + ites.text)
+                #print(iter.tag + ": " + iter.text)
+                if ites.tag == "name":
+                    if ites.text is not None:
+                        compName = html.escape(ites.text)
+                if ites.tag == "id":
+                    if ites.text is not None:
+                        compId = html.escape(ites.text)
+                if ites.tag == "stufe":
+                    for stufe in ites:
+                        skillsid=""
+                        skillsname=""
+                        for standard in stufe:
+                            #print("worked")
+                            if standard.tag == "id":
+                                skillsid=html.escape(standard.text)
+                            if standard.tag == "content":
+                                skillsname=html.escape(standard.text)
+                        if skillsid!="" and skillsname!="":
+                            skillId.append(skillsid)
+                            skillName.append(skillsname)
+            if compId != "" and compName != "":
+                competenceName.append(compName)
+                competenceId.append(compId)
+                #print("worked")
+                #print(compId + ": " + compName)
+    else:
+        good_bot = tryNodes.findall('./c2/area/')
+        for item in good_bot:
+            for ites in item:
+                compId = ""
+                compName = ""
+                for iter in ites:
+                    if iter.tag == "name":
+                        if iter.text is not None:
+                            compName = html.escape(iter.text)
+                    if iter.tag == "id":
+                        if iter.text is not None:
+                            compId = html.escape(iter.text)
+                    if iter.tag == "stufe":
+                        for stufe in iter:
+                            skillsid=""
+                            skillsname=""
+                            for standard in stufe:
+                                #print("worked")
+                                if standard.tag == "id":
+                                    skillsid=html.escape(standard.text)
+                                if standard.tag == "content":
+                                    skillsname=html.escape(standard.text)
+                            if skillsid!="" and skillsname!="":
+                                skillId.append(skillsid)
+                                skillName.append(skillsname)
+                if compId != "" and compName != "":
+                    competenceName.append(compName)
+                    competenceId.append(compId)
+                    #print("worked")
+                    #print(compId + ": " + compName)
+    """        
+    allNodes = tryNodes.findall('./c2/area/competence/name')
     #competence name
     for item in allNodes:
         competenceName.append(html.escape(item.text))
-    allNodes = tryNodes.findall('./c2/area/competence/stufe/id')
+    allNodes = tryNodes.findall('./c2/area/competence/id')
     #competence id?
     for item in allNodes:
         competenceId.append(html.escape(item.text))
@@ -105,23 +227,22 @@ def goDeep(tree, varCategory, varFach, fileExceptionName):
     #skill name
     for item in allNodes:
         skillName.append(html.escape(item.text))
+    """
     if fileExceptionName == "GEO.xml" or fileExceptionName == "geo.xml":
         return
+    if len(competenceName) == 0:
+        allNodes = tryNodes.findall('./c2/area/name')
+        for item in allNodes:
+            competenceName.append(html.escape(item.text))
+    if len(competenceId) == 0:
+        allNodes = tryNodes.findall('./c2/area/id')
+        for item in allNodes:
+            competenceName.append(html.escape(item.text))
+    print(len(competenceId))
+    print(competenceId)
+    print(len(competenceName))
+    print(competenceName)
     """
-    allNodes = tryNodes.findall('./c2/competence/stufe/name')
-    #Nwithout area tag
-    for item in allNodes:
-        competenceId.append(html.escape(item.text))
-    allNodes = tryNodes.findall('./c2/area/competence/stufe/standard/content')
-    for item in allNodes:
-        skillName.append(html.escape(item.text))
-    allNodes = tryNodes.findall('./c2/area/name')
-    for item in allNodes:
-        competenceName.append(html.escape(item.text))
-    allNodes = tryNodes.findall('./c2/area/id')
-    for item in allNodes:
-        competenceName.append(html.escape(item.text))
-
     /bc/bc3/area[1]/competence[1]/name
     """
     allNodes = tryNodes.findall('./c3/themainhalt/id')
@@ -134,17 +255,17 @@ def goDeep(tree, varCategory, varFach, fileExceptionName):
     for node in allNodes:
         topicContent.append(html.escape(node.text))
     if len(skillId) == len(skillName):
-        print("basst scho")
+        #print("basst scho")
         for ele in range (0,len(skillId)):
             element = (skillId[ele],skillName[ele], varFach, "Berlin-Brandenburg", varCategory)
             allSkills.append(element)
     if len(competenceId) == len(competenceName):
-        print("basst scho, aber bei competence")
+        #print("basst scho, aber bei competence")
         for ele in range (0,len(competenceId)):
             element = (competenceId[ele],competenceName[ele], varFach, "Berlin-Brandenburg", varCategory)
             allCompetences.append(element)
     if len(topicId) == len(topicName):
-        print("basst scho, aber bei topics, hier weiter")
+        #print("basst scho, aber bei topics, hier weiter")
         if len(topicId) == len(topicContent):
             for ele in range (0,len(topicId)):
                 element = (topicId[ele],topicName[ele], varFach, "Berlin-Brandenburg", topicContent[ele], varCategory)
@@ -167,27 +288,16 @@ with os.scandir(basepath) as entries:
                     print(fachType[1].text)
                 except ElementTree.ParseError as e:
                     print(e)
-                varCategory=""
-                varCategory = input("Which category is this? (1=Logik, 2=Kommunikation, 3=Soziales, 4=Bewegung)")
-                if varCategory == "1":
-                    varCategory = "Logik"
-                elif varCategory == "2":
-                    varCategory = "Kommunikation"
-                elif varCategory == "3":
-                    varCategory = "Soziales"
-                elif varCategory == "4":
-                    varCategory = "Bewegung"
-                print(varCategory)
+                varCategory=categoryInput[entry.name]
+                #print(varCategory)
                 varFach = fachType[1].text
                 goDeep(tree, varCategory, varFach, entry.name)
                 f.close()
                 
-#worked when it was still indented. why? whhhyyyy?
 writetoDB(allCompetences, "competence")
 writetoDB(allSkills, "skill")
 writetoDB(allTopics, "topic")
-                
-             
-print(allCompetences)
-print(allSkills)
-print(allTopics)
+                           
+#print(allCompetences)
+#print(allSkills)
+#print(allTopics)
